@@ -1,0 +1,9 @@
+#exercise1
+#題目請輸入一正方形的邊長,之後計算其周長和面積,最後輸出邊長、周長和面積。
+#輸出浮點數到小數點後第二位。：
+side=eval(input('請輸入正方形邊長：'))
+perimeter=side*4
+area=side**2
+print('邊長為：','{:.2f}'.format(side),sep='')
+print('周長為：','{:.2f}'.format(perimeter),sep='')
+print('面積為：','{:.2f}'.format(area),sep='')
